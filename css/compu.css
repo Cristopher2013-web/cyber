@@ -1,0 +1,61 @@
+.general__subtitulo {
+  padding-top: 1em;
+  padding-bottom: 1em;
+  font-size: 2.4em;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  text-align: center;
+}
+
+.general {
+  margin: auto;
+  width: 85%;
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+}
+.general .general__blog {
+  margin: 5px;
+  border-radius: 7px;
+  box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.6);
+  transition: all;
+  transition-duration: 0.6s;
+}
+.general .general__blog .general_imagen {
+  text-align: center;
+}
+.general .general__blog .general_imagen img {
+  width: 100%;
+  border-radius: 7px;
+  background-size: cover;
+}
+.general .general__blog .general_texto {
+  margin: 8px;
+  align-items: center;
+}
+.general .general__blog .general_texto .coste {
+  font-size: 15px;
+}
+.general .general__blog .general_texto .coste1 {
+  font-size: 1.5rem;
+  color: red;
+}
+.general .general__blog:hover {
+  box-shadow: 0px 1px 10px rgb(0, 0, 0);
+  transform: translateY(-2%);
+  cursor: pointer;
+}
+
+@media (min-width: 600px) {
+  .general {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+@media (min-width: 800px) {
+  .general {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+@media (min-width: 1000px) {
+  .general {
+    grid-template-columns: repeat(4, 1fr);
+  }
+}/*# sourceMappingURL=compu.css.map */

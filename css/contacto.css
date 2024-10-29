@@ -1,0 +1,143 @@
+.Contacto {
+  color: #fff;
+  padding: 50px 0;
+}
+.Contacto .Contacto__seccion {
+  min-width: 300px;
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+}
+.Contacto .Contacto__seccion .Contacto__fila .Contacto__datos {
+  width: 90%;
+  margin: auto;
+  padding: 10px;
+}
+.Contacto .Contacto__seccion .Contacto__fila .Contacto__datos input,
+.Contacto .Contacto__seccion .Contacto__fila .Contacto__datos textarea {
+  display: block;
+  width: 100%;
+  padding: 18px;
+  border: solid 1px black;
+  margin-bottom: 20px;
+  color: #fff;
+  font-size: 18px;
+}
+.Contacto .Contacto__seccion .Contacto__fila .Contacto__datos button {
+  cursor: pointer;
+  border: 1px solid black;
+  display: block;
+  margin: 20px auto;
+  padding: 10px 22px;
+  font-size: 16px;
+}
+.Contacto .Contacto__seccion .contacto_mapa {
+  width: 27rem;
+  margin: auto;
+  border: solid black 1px;
+}
+.Contacto .Contacto__seccion .contacto_mapa iframe {
+  width: 100%;
+}
+
+@media (max-width: 350px) {
+  .Contacto .Contacto__seccion .contacto_mapa {
+    width: 23rem;
+    margin: auto;
+    border: solid black 1px;
+  }
+  .Contacto .Contacto__seccion .contacto_mapa iframe {
+    width: 100%;
+  }
+}
+@media (min-width: 350px) {
+  .Contacto .Contacto__seccion .contacto_mapa {
+    width: 23rem;
+    margin: auto;
+    border: solid black 1px;
+  }
+  .Contacto .Contacto__seccion .contacto_mapa iframe {
+    width: 100%;
+  }
+}
+@media (min-width: 500px) {
+  .Contacto .Contacto__seccion .contacto_mapa {
+    width: 33rem;
+    margin: auto;
+    border: solid black 1px;
+  }
+  .Contacto .Contacto__seccion .contacto_mapa iframe {
+    width: 100%;
+  }
+}
+@media (min-width: 600px) {
+  .Contacto .Contacto__seccion .Contacto__fila .Contacto__datos {
+    width: 100%;
+  }
+  .Contacto .Contacto__seccion .Contacto__fila .Contacto__datos input,
+.Contacto .Contacto__seccion .Contacto__fila .Contacto__datos textarea {
+    display: block;
+    width: 90%;
+    margin: auto;
+    padding: 18px;
+    border: solid 1px black;
+    margin-bottom: 20px;
+    color: #fff;
+    font-size: 18px;
+  }
+  .Contacto .Contacto__seccion .Contacto__fila .Contacto__datos button {
+    cursor: pointer;
+    border: 1px solid black;
+    display: block;
+    margin: 20px auto;
+    padding: 10px 22px;
+    font-size: 16px;
+  }
+  .Contacto .Contacto__seccion .contacto_mapa {
+    width: 37rem;
+    margin: auto;
+    border: solid black 1px;
+  }
+  .Contacto .Contacto__seccion .contacto_mapa iframe {
+    width: 100%;
+  }
+}
+@media (min-width: 800px) {
+  .Contacto .Contacto__seccion .Contacto__fila {
+    display: flex;
+    flex-direction: row;
+  }
+  .Contacto .Contacto__seccion .Contacto__fila .Contacto__datos {
+    width: 100%;
+    margin: auto;
+    padding: 10px;
+  }
+  .Contacto .Contacto__seccion .Contacto__fila .Contacto__datos input,
+.Contacto .Contacto__seccion .Contacto__fila .Contacto__datos textarea {
+    display: block;
+    width: 90%;
+    padding: 18px;
+    border: solid 1px black;
+    margin-bottom: 20px;
+    color: #fff;
+    font-size: 18px;
+  }
+  .Contacto .Contacto__seccion .Contacto__fila .Contacto__datos button {
+    cursor: pointer;
+    border: 1px solid black;
+    display: block;
+    margin: 20px auto;
+    padding: 10px 22px;
+    font-size: 16px;
+  }
+  .Contacto .Contacto__seccion .contacto_mapa {
+    padding-bottom: 8rem;
+    padding-right: 1rem;
+    width: 80rem;
+    border: none;
+  }
+  .Contacto .Contacto__seccion .contacto_mapa iframe {
+    width: 100%;
+    margin: auto;
+  }
+}/*# sourceMappingURL=contacto.css.map */
